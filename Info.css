@@ -1,0 +1,177 @@
+.bg_navbar{
+    background-image: linear-gradient(#989898, #8d8d8d );
+ 
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex; 
+    font-family: 'Crimson Text', serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_header{
+    width: 80%;
+    padding: 100px 60px 10px 60px;
+    height: 450px;
+    color: #fff;
+    
+}.nav-link{
+    color:#fff;
+}
+.navbar-brand{
+    color:#fff;
+}
+.accordion-item{
+    transform: scale(0.9, 0.9);
+}
+
+a{
+    text-decoration: none;
+    color:rgba(118, 25, 25, 0.55);
+
+}
+.links:hover{
+    color:red;
+}
+
+.Segundo_titulo{
+    background-color: #2E4F4F;
+}
+
+.Fondito3{
+   background-color: rgb(42, 42, 42);
+
+}
+.TerImg{
+    background-image: url("https://i.pinimg.com/474x/6b/41/20/6b4120b3db7756374eba805db5504d9f.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SegImg{
+    height: 90vh;
+   background-image: url("https://cdn.pixabay.com/photo/2013/08/26/09/40/silhouette-175970_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section_text{
+    height: 90vh;
+    padding: 50px 60px 10px 60px;
+}
+
+.row{
+    background-color: yellow;
+    height: 50px;
+    padding: 30px;
+    background: rgba(118, 25, 25, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(118, 25, 25, 0.55);
+}
+
+.col{
+    height: 50px;
+    background-color: #2E4F4F;
+}
+.Fichitas{
+    display:flex;
+}
+h1{
+    text-align: center;
+
+    font-family: 'Crimson Text', serif;
+    font-size: 36px;
+    color:#fff;
+
+}
+h2{
+    font-family: 'Crimson Text', serif;
+    color:#fff;
+       
+      
+}
+p,li,h5{
+    font-family: 'Saira Condensed', sans-serif;
+    
+      
+}
+.mt-0 {
+    margin-top: 0 !important;
+  }
+  
+  h2,h5,li {
+    margin-left: 2cm;
+  }
+  
+  p {
+    padding-left: 12vh;
+    padding-right: 12vh;
+  }
+  .img_header{
+    background-image:url("https://cdn.pixabay.com/photo/2020/12/18/18/56/sculpture-5842676_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.nav-item:hover{
+    background-color: #4e4d4d;
+    transform: scale(0.9,0.9);
+}
+.img_header::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.762);
+}
+.ContenidoFi{
+    position: relative;
+    color:#fff;
+}
+p{
+    text-align: center;
+}
+  .textico{
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    background:linear-gradient(#1497be, #1c2aec);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+font-size: larger;
+
+}
+  @keyframes text {
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%{
+        filter:hue-rotate(360deg);
+    }
+    
+    
+    }
+
+
+
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+
+

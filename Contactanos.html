@@ -40,19 +40,55 @@
       <header class="img_header">
         <div class="ContenidoFi">
      <div class="Fondito3">
-      <h1 id="Inicio">Información</h1>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+          </div>
+      <h1 id="Inicio">Contacto</h1>
      <br>
      <br>
-<p>La página presente es hecha solo para Información general de Filosofia o fines académicos no tiene ningún fin económico.
-    <br><br>
-La página es hecha por Anthony Ospina Fernandez las fichas y su contenido es derecho reservado a Anthony Ospina del Colegio León de Greiff 11-3 </p>
-<br><br>
-<p>Si desea comunicarse directamente puede ir a la página de contactenos o dejar un correo en la siguiente dirección <strong>anthoss4th@gmail.com</strong> </p>
+     <p>Puedes contactarte por correo (anthoss4th@gmail.com) por instagram (@anthoss4th) o por whatsapp (+57 310 5412463)</p>
+     <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">dirección de correo electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">Dejanos aquí de quien nos solicita</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Mensaje</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="text">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Listo!</label>
+        </div>
+       
+      </form>
 
-
-<img src="" alt="Certficado">
-<p class="textico">La certificación es solo para confirmar mis conocimientos</p>
-
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Enviar mensaje
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">¿Continuar?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Hola, por favor verifica tus datos.
+          Si ya estas listo puedes proceder :)
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     </div>
