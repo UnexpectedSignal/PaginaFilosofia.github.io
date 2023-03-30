@@ -28,8 +28,8 @@
 
 a{
     text-decoration: none;
-    color:rgba(118, 25, 25, 0.55);
-
+    color:rgb(255, 13, 13);
+    text-align: center;
 }
 .links:hover{
     color:red;
