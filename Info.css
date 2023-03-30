@@ -74,6 +74,7 @@ a{
 }
 img{
     align-items: center;
+    justify-self: center;
 }
 .col{
     height: 50px;
@@ -95,6 +96,9 @@ h2{
     color:#fff;
        
       
+}
+.CajaF{
+    background-color: #4e4d4d;
 }
 p,li,h5{
     font-family: 'Saira Condensed', sans-serif;
