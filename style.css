@@ -48,6 +48,7 @@ a{
     position: relative;
 
 }
+
 .img_header::before{
     position: absolute;
     content: "";
@@ -61,7 +62,9 @@ a{
     position: relative;
     color:#fff;
 }
-
+#centrar{
+    align-items: center;
+}
 .Lincito{
     opacity: 9%;
 }
@@ -214,6 +217,13 @@ a{
 .section_text{
     height: 90vh;
     padding: 50px 60px 10px 60px;
+}
+.LinkFin{
+    align-items: center;
+    justify-content: space-around;
+    margin: auto auto;
+    display: flex;
+    
 }
 
 .row{
