@@ -32,6 +32,11 @@ a{
 .Segundo_titulo{
     background-color: #2E4F4F;
 }
+.CE{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
 
 .Fondito3{
    background-color: rgb(42, 42, 42);

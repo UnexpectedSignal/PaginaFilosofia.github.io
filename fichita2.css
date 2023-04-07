@@ -19,7 +19,11 @@
 .accordion-item{
     transform: scale(0.9, 0.9);
 }
-
+.CE{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
 a{
     text-decoration: none;
     color:rgba(118, 25, 25, 0.55);

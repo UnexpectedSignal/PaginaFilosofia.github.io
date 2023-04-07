@@ -60,7 +60,11 @@ a{
     height: 90vh;
     padding: 50px 60px 10px 60px;
 }
-
+.CE{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
 .row{
     background-color: yellow;
     height: 50px;

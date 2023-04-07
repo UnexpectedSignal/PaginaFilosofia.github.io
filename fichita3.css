@@ -24,6 +24,10 @@ a{
     text-decoration: none;
     color:rgba(118, 25, 25, 0.55);
 
+}.CE{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
 }
 .links:hover{
     color:red;
