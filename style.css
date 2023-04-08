@@ -36,7 +36,7 @@ a{
 }
 .card{
     transition: all .3s;
-    background: rgba(123, 123, 123, 0.547);
+    background: rgb(255, 255, 255);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(254, 0, 0, 0.488);
 backdrop-filter: blur(1.8px);
@@ -93,7 +93,10 @@ border: 1px solid rgba(163, 107, 107, 0.829);
     height: 50px;
     background-color: #2E4F4F;
 } 
-
+.col-4:hover{
+ 
+    transform: scale(.95);
+}
 .card-text{
     color: #000;
 }
